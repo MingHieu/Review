@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:20px;
+}
+.row{
+    width:50%;
+    margin:0 auto;
+    border:2px solid black;
+    padding-bottom:50px;
+}
+.title{
+    width:100%;
+}
+h1{
+    background:red;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+.main{
+    text-align:center;
+}
+p{
+    margin:20px;
+}
+input{
+    padding:10px;
+    border-radius:5px;
+    outline:none;
+    border:2px solid #5a5a5a;
+}

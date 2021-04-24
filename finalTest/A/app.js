@@ -1,8 +1,7 @@
 //............. Ex 1.....................
 function findOppositeNumber(n, inputNumber) {
-    let d = n / 2;
-    if (inputNumber >= d) return inputNumber - d
-    else return inputNumber + d
+    if (inputNumber >= n / 2) return inputNumber - n / 2
+    else return inputNumber + n / 2
 }
 console.log(findOppositeNumber(10, 2));
 console.log(findOppositeNumber(10, 6));
@@ -17,9 +16,9 @@ function merge2String(s1, s2) {
             output += s1[i] + s2[i]
         }
         if (len == s2.length)
-            output += s1[s1.length - 1]
+            output += s1.split(`${s1[len - 1]}`)[1]
         else
-            output += s2[s2.length - 1]
+            output += s2.split(`${s2[len - 1]}`)[1]
         return output
     }
     else {
